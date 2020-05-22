@@ -7,9 +7,9 @@ const rootElement = document.getElementById("root");
 const App = () => {
   return (
     <div className="ui container comments">
-      <CommentDetail author="sam" />
-      <CommentDetail author="Alex" />
-      <CommentDetail author="Jane" />
+      <CommentDetail author="sam" timeAgo="Today at 4:40 pm" />
+      <CommentDetail author="Alex" timeAgo="Today at 5:40 pm" />
+      <CommentDetail author="Jane" timeAgo="Today at 6:40 pm" />
     </div>
   );
 };
